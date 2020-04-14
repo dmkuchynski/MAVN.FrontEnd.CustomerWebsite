@@ -3,35 +3,35 @@
     <tr>
       <td>
         <ul class="footer-socials">
-          <li>
+          <li *ngIf="footerInfo.FacebookLink">
             <a [href]="footerInfo.FacebookLink"
                rel="noopener noreferrer"
                target="_blank">
               <img src="assets/images/footer/facebook_f.png"
                    alt="Facebook Social link"></a>
           </li>
-          <li>
+          <li *ngIf="footerInfo.TwitterLink">
             <a [href]="footerInfo.TwitterLink"
                rel="noopener noreferrer"
                target="_blank">
               <img src="assets/images/footer/twitter.png"
                    alt="Twitter Social link"></a>
           </li>
-          <li>
+          <li *ngIf="footerInfo.InstagramLink">
             <a [href]="footerInfo.InstagramLink"
                rel="noopener noreferrer"
                target="_blank">
               <img src="assets/images/footer/instagram.png"
                    alt="Instagram Social link"></a>
           </li>
-          <li>
+          <li *ngIf="footerInfo.LinkedInLink">
             <a [href]="footerInfo.LinkedInLink"
                rel="noopener noreferrer"
                target="_blank">
               <img src="assets/images/footer/linkedin_in.png"
                    alt="LinkedIn Social link"></a>
           </li>
-          <li>
+          <li *ngIf="footerInfo.YouTubeLink">
             <a [href]="footerInfo.YouTubeLink"
                rel="noopener noreferrer"
                target="_blank">
@@ -39,10 +39,16 @@
                    class="youtube"
                    alt="Youtube Social link"></a>
           </li>
+          <li>
+            <a href="https://t.me/MAVNallianceGroup"
+               rel="noopener noreferrer"
+               target="_blank">
+              <img src="assets/images/footer/telegram.svg"
+                   alt="Telegram"></a>
+          </li>
         </ul>
         <div class="footer-text">
-          <p>© 2019 by Company Name Placeholder. All Rights Reserved.</p>
-          <p>Address of the company placeholder.</p>
+          <p>© 2020 OpenMAVN. All Rights Reserved.</p>
         </div>
         <ul class="footer-actions">
           <li>

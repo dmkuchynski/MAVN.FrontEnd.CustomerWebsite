@@ -1,1 +1,1 @@
-export const TOKEN_SYMBOL = 'MVN';
+export const TOKEN_SYMBOL = 'SP';
