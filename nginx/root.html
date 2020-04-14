@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <script>
-    var l = window.location;
-    console.log(JSON.stringify(l, null, 2))
+    (function () {
+      var l = window.location;
+      console.log(JSON.stringify(l, null, 2))
 
-    if (l.pathname === '/en') {
-      window.location.replace(l.href + '/');
-      return;
-    }
+      if (l.pathname === '/en') {
+        window.location.replace(l.href + '/');
+        return;
+      }
 
-    var newHref = l.origin + '/en' + l.pathname + l.search;
-    window.location.replace(newHref);
+      var newHref = l.origin + '/en' + l.pathname + l.search;
+      window.location.replace(newHref);
+    })();
   </script>
 </head>
 <body>
