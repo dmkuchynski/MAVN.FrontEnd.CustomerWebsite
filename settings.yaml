@@ -1,0 +1,7 @@
+CustomerWebsite:
+  CustomerApiUrl:
+    settings-key: CustomerApiUrl
+  AndroidLink:
+    settings-key: CustomerWebsite-AndroidLink
+  IosLink:
+    settings-key: CustomerWebsite-IosLink

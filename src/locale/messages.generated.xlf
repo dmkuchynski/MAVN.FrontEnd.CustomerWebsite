@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ef3f70345faf104f65a15d0f8821363ac313026b" datatype="html">
+        <source>Field is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/error-message/error-message.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ee02385a89f0788fd35fd61cce47d1f882de536" datatype="html">
+        <source>Field has to be whole number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/error-message/error-message.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab31b71295a1bc9475469eec819bd15a26bdd744" datatype="html">
+        <source>404 page not found</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/not-found/not-found.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="199d95857c74b0945b5c7130051a9ad293fc141b" datatype="html">
+        <source>Verifying. Please wait...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51ef91163c4348c73657271b3c18614dea5d26f7" datatype="html">
+        <source>Your email is now verified.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="734122328b5b89dd77f95fb88c749b84682c63c6" datatype="html">
+        <source>Email has been already verified</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f5fa36a9569c07faba3ec105c5f5387ba52f5f4c" datatype="html">
+        <source>Verification code does not exist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7865f43c526db9c5707cc3a9c14441bef16ed695" datatype="html">
+        <source>Verification code mismatch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37fb6f8467e1847ae2563e2603f1e3280e072b6f" datatype="html">
+        <source>Verification code has expired</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0c63e3c398d5d20ae7b05e1ba6dbea59c54cdb9" datatype="html">
+        <source>Unknown error</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/email-confirmation/email-confirmation.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f6059423bbc9cf343b036aee4f16fba2b4a47a1" datatype="html">
+        <source>
+      <x id="START_TAG_DIV_1" ctype="x-div" equiv-text="&lt;div&gt;"/>
+        <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+      <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1aae50a325ab1193498b66c789d3b3e8968e3237" datatype="html">
+        <source>Invalid link, please contact support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fc48f3951b49e4b78f85738fa2c828107cb87a7" datatype="html">
+        <source>The provided reset password identifier does not exist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5362a5fd39afea3b100ce4e175668d4dc7d06d9e" datatype="html">
+        <source>The provided reset password identifier has expired and it is not valid anymore</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a522c6a2093707e9551aaae61ecaef25465762c" datatype="html">
+        <source>Unknown error, please contact support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddab8f43a9dba76959b3fd87f99e01435b023c73" datatype="html">
+        <source>Your password has been successfully reset.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e70e209561583f360b1e9cefd2cbb1fe434b6229" datatype="html">
+        <source>New password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1fbedc794e374567ff1a8277ec54fad1c3d29201" datatype="html">
+        <source>Invalid password format</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="447c25224bb42db33fcfb0d43e102011aaa57196" datatype="html">
+        <source>Length should be between <x id="INTERPOLATION" equiv-text="{{ctx.min}}"/> and <x id="INTERPOLATION_1" equiv-text="{{ctx.max}}"/> characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f3bdcce4b2e8c37cd7f0f6c92ef8cff34b039b8" datatype="html">
+        <source>Confirm password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e7702a7126becdb2bd39426a0e2d202287f2ede" datatype="html">
+        <source>The passwords should be equal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ceedaaf868f3f30abd5ed41582f6fee4a665f37d" datatype="html">
+        <source>Password length should be between <x id="INTERPOLATION" equiv-text="{{rules.MinLength}}"/> and <x id="INTERPOLATION_1" equiv-text="{{rules.MaxLength}}"/> characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a835e8d2e13165fbd89b2d598ed4d79fbfbd377" datatype="html">
+        <source>Password should contain <x id="INTERPOLATION" equiv-text="{{rules.MinLowerCase}}"/> lowercase character(s), <x id="INTERPOLATION_1" equiv-text="{{rules.MinUpperCase}}"/>
+            uppercase character(s), <x id="INTERPOLATION_2" equiv-text="{{rules.MinNumbers}}"/> digit(s) and <x id="INTERPOLATION_3" equiv-text="{{rules.MinSpecialSymbols}}"/> special symbol(s)
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ad6ee5b951afff9a770cd4baa8fbb3f71a0e7e4" datatype="html">
+        <source>Allowed special symbols are: <x id="INTERPOLATION" equiv-text="{{rules.AllowedSpecialSymbols}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99328065f3e71959b6d57b42aa1049a0fc1aecac" datatype="html">
+        <source>Whitespaces are allowed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1928e2842e7a839e1042c1475e437214ce5a9404" datatype="html">
+        <source>Whitespaces are not allowed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="957ee234588920a7669f573349deb7dfa13a7503" datatype="html">
+        <source>Customer doesn&apos;t have valid identifier for resetting password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f4d8d0d1066d7018bc6b04f8a0a09b406966be2" datatype="html">
+        <source>Reached maximum amount of calls to reset password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9ae7af62ee265a8fff2a1d19b4521d9539526d76" datatype="html">
+        <source>Customer with such email does not exist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2585b4e2b706211074f3364cd57b874dedffa7b5" datatype="html">
+        <source>The provided reset password identifier does not match the customer&apos;s one</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49efd08797cf25e5ee238563707a8e241655289e" datatype="html">
+        <source>Customer does not exist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/reset-password/reset-password.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d184d59bd46a4e39f49f327d055f28772e2c33f7" datatype="html">
+        <source>Thank you for accepting the invite to Properties.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69d1a969bdb6fcb95a8e73cafd0e4e319053fdb3" datatype="html">
+        <source>One of our Salesteam member will reach out to you shortly.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d951f5c62bc6bcf094513493910f46221990342" datatype="html">
+        <source>Referral is not found by provided confirmation code.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3fcec3f05870f7968d485df1f27a2b58dca45b1b" datatype="html">
+        <source>You have been already confirmed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9f269dcf8c2774550b2fb4e207985e27678b29b3" datatype="html">
+        <source>Unknown error, please contact support.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/lead-confirmation/lead-confirmation.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce62dea683aebe147f6b0cf2c0452b5bcc2c9559" datatype="html">
+        <source>Congratulations!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="03b7b1cdd879212fc1e2dd1c78d9ba4063557234" datatype="html">
+        <source>You have successfully been referred to the hotel by <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ReferrerEmail}}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f3266c767d5c05b24433e87cd731d55a205eab61" datatype="html">
+        <source>Download and check the App to find out more about how to redeem your reward tokens and what benefits
+    you can get.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d88667d220d92364b84b535ddd09d110644ed7f" datatype="html">
+        <source>This offer is not valid through 3rd party hotel booking sites.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92c5e0a17059767e60b2cb2269edd5ff7006c92d" datatype="html">
+        <source>You can also check the Terms of Use in the app before you proceed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f2c73fbf850a4a5f2d466fd1bb69bae9ce7303c" datatype="html">
+        <source>The link has been already expired.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/refer-hotel-confirmation/refer-hotel-confirmation.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="740969105b0ed270dd2ecdd712a73216a1e3097b" datatype="html">
+        <source>Link your public address to the application. Simply click link, and you will be prompted to create a
+        signature by your wallet app.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc50d420247c0f8a74f9293ed10e295c11d5c45e" datatype="html">
+        <source>Once linked you can send tokens between your wallet and this wallet.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2dfa43307301cb2d7face8f60a20f8d2cebd5bb1" datatype="html">
+        <source>YOUR PUBLIC ACCOUNT ADDRESS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9c34aa3071ea52d89d2d10464466a8604a6a8d0" datatype="html">
+        <source>LINKING CODE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5f24fc7a2bf50bd61d109dd9cad3fbff6ec7add" datatype="html">
+        <source>Required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4dbe050ab095c2c3355199c02f08d1a789a03ae7" datatype="html">
+        <source>Error occured, please contact support.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acab6f5800a2f1f5486209cf915666723e4e86da" datatype="html">
+        <source>Error code: <x id="INTERPOLATION" equiv-text="{{errorCode}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd43849e5f28811c6bae567b3fb2f278080cc822" datatype="html">
+        <source>Send Link Request</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5570653a559a011629fe27dc25697483e98d99ae" datatype="html">
+        <source>
+    Thank you for posting the link request.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0c57522fee3d64491c1830f8453886cbe1964061" datatype="html">
+        <source>This browser is not supported.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83c43a8c06261bace712d40c6a2bc50d6b442975" datatype="html">
+        <source>Try using:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58610493dd8cd0e06038f58bb1df23a9f2158065" datatype="html">
+        <source>Invalid link, please contact support.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/public/dapp/dapp-linking-page/dapp-linking-page.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

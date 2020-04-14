@@ -1,0 +1,10 @@
+@import '../utils/rtl-mixins';
+
+.spinner-with-text {
+  display: flex;
+  align-items: center;
+
+  > .spinner-text {
+    @include margin-start(5px);
+  }
+}

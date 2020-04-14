@@ -1,0 +1,110 @@
+$heightOfMatLabel: 0.75em;
+
+.dapp {
+  color: #393b49;
+  font-family: Muli, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  .token-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    > img {
+      height: 40px;
+    }
+  }
+
+  .dapp-content {
+    background-color: #fff;
+    border-radius: 3px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 30px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+
+    &__information {
+      margin-bottom: 40px;
+    }
+
+    p {
+      margin: 0;
+      margin-bottom: 16px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      color: #236be9;
+    }
+
+    .error {
+      color: #d8191e;
+    }
+
+    .dapp-form {
+      width: 100%;
+
+      &__label {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+      }
+
+      .mat-form-field {
+        font-size: 1em;
+        margin-top: -$heightOfMatLabel;
+        margin-bottom: 30px;
+        width: 70%;
+
+        :host ::ng-deep &-wrapper {
+          margin-bottom: -1.34375em !important;
+        }
+
+        :host ::ng-deep &-infix {
+          border-top-width: 0 !important;
+        }
+      }
+
+      &__submit {
+        background-color: #242635;
+        border-radius: 100px;
+        color: #fff;
+        font-size: inherit;
+        font-weight: bold;
+        line-height: inherit;
+        padding: 12px 43px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.mb-1em {
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 620px) {
+  .dapp {
+    .dapp-content {
+      margin: 0 10px;
+      width: auto;
+
+      .dapp-form {
+        .mat-form-field {
+          width: 100%;
+        }
+        &__submit {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

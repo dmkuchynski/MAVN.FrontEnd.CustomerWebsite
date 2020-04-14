@@ -1,0 +1,18 @@
+@import '~src/scss/token-theme/utils/rtl-mixins';
+
+.download-app {
+  margin-top: 10px;
+
+  &__link {
+    display: inline-block;
+    margin-top: 20px;
+
+    &:first-of-type {
+      @include margin-end(20px, true);
+    }
+  }
+
+  &__icon {
+    height: 40px;
+  }
+}

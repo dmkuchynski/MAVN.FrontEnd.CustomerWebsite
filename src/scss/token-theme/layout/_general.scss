@@ -1,0 +1,64 @@
+@import '../utils/variables';
+@import '../utils/rtl-mixins';
+
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #e9e9ea;
+  color: #393b49;
+  font-family: $font-family;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  @include text-align-start();
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-50 {
+  width: 50%;
+}
+.width-25 {
+  width: 25%;
+}
+.width-33 {
+  width: 33.3333333%;
+}
+.width-75 {
+  width: 75%;
+}
+
+.float-left {
+  @include float(true);
+}
+
+.float-right {
+  @include float(false);
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.margin-0-auto {
+  margin: 0 auto;
+}

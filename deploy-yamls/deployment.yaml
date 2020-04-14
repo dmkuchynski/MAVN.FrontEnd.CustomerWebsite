@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    description: Lykke-Frontend-CustomerWebsite
+  labels:
+    app: customer-website
+    tier: Service
+  name: customer-website
+  namespace: frontend
+spec:
+  revisionHistoryLimit: 1
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  replicas: 1
+  selector:
+    matchLabels:
+      app: customer-website
+  template:
+    metadata:
+      labels:
+        app: customer-website
+      name: customer-website
+    spec:
+      #     nodeSelector:
+      #       type:
+      #     tolerations:
+      #     - effect: NoSchedule
+      #       operator: Exists
+      imagePullSecrets:
+        - name: customer-website-docker
+      containers:
+        - name: customer-website
+          image: lykkebusiness/service-customer-website:dev
+          imagePullPolicy: Always
+          lifecycle:
+            postStart:
+              exec:
+                command:
+                  - /bin/sh
+                  - -c
+                  - "/bin/echo 'options single-request-reopen' >> /etc/resolv.conf && cp /config/env-config.json /usr/share/nginx/html/"
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /api/isalive
+              port: 80
+            initialDelaySeconds: 40
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /api/isalive
+              port: 80
+            initialDelaySeconds: 40
+            periodSeconds: 20
+          resources:
+            requests:
+              memory: 128Mi
+              cpu: 40m
+            limits:
+              memory: 1024Mi
+              cpu: 1000m
+          env:
+            - name: BuildNumber
+              value: '$version'
+            - name: SettingsUrl
+              value: '$ConnectionString'
+            - name: ENV_INFO
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: MyMonitoringUrl
+              value: http://customer-website.frontend.svc.cluster.local/api/isalive
+          volumeMounts:
+            - name: workdir
+              mountPath: /config
+      initContainers:
+        - name: install
+          image: busybox
+          command: ['/bin/sh', '-c']
+          args: ['wget --output-document=env-config.json $ConnectionString; cp env-config.json /work-dir']
+          volumeMounts:
+            - name: workdir
+              mountPath: '/work-dir'
+      volumes:
+        - name: workdir
+          emptyDir: {}

@@ -1,0 +1,10 @@
+<div *ngIf="showError">
+  <div *ngIf="error == 'required'"
+       i18n>Field is required</div>
+  <div *ngIf="error == 'integer'"
+       i18n>Field has to be whole number</div>
+  <div *ngIf="error == key && message">{{message}}</div>
+  <ng-container *ngIf="error == key && template"
+                [ngTemplateOutlet]="template"
+                [ngTemplateOutletContext]="templateContext"></ng-container>
+</div>
