@@ -7,7 +7,9 @@ This command uses package-lock.json file with necessary versions.
 ## Development server
 
 To run locally execute command `npm run serve-en`, the available commands are in package.json file inside scripts section.
-Navigate to `http://localhost:4200/en`. The app will automatically reload if you change any of the source files.
+Navigate to `http://localhost:4200/en`. The app will automatically reload if you change any of the source files.  
+Pay attention to file `nginx/env-config.json` which contains settings required for application including api url `CustomerApiUrl`.
+This file is downloading at the moment of application start.
 
 ## Code scaffolding
 
@@ -15,7 +17,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm run build` to build the production build. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
