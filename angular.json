@@ -36,39 +36,29 @@
             "es5BrowserSupport": true
           },
           "configurations": {
-            "ar": {
+            "de": {
               "aot": true,
-              "outputPath": "dist/token-customer-website/ar",
-              "baseHref": "/ar/",
-              "deployUrl": "/ar/",
-              "i18nFile": "src/locale/messages.ar-SA.translated.xlf",
+              "outputPath": "dist/token-customer-website/de",
+              "baseHref": "/de/",
+              "deployUrl": "/de/",
+              "i18nFile": "src/locale/messages.de-DE.translated.xlf",
               "i18nFormat": "xlf",
-              "i18nLocale": "ar-SA",
-              "i18nMissingTranslation": "no_translation",
-              "fileReplacements": [
-                {
-                  "replace": "src/index.html",
-                  "with": "src/index-ar.html"
-                }
-              ]
+              "i18nLocale": "de",
+              "i18nMissingTranslation": "warning"
             },
-            "ar-prod": {
+            "de-prod": {
               "aot": true,
-              "outputPath": "dist/token-customer-website/ar",
-              "baseHref": "/ar/",
-              "deployUrl": "/ar/",
-              "i18nFile": "src/locale/messages.ar-SA.translated.xlf",
+              "outputPath": "dist/token-customer-website/de",
+              "baseHref": "/de/",
+              "deployUrl": "/de/",
+              "i18nFile": "src/locale/messages.de-DE.translated.xlf",
               "i18nFormat": "xlf",
-              "i18nLocale": "ar-SA",
-              "i18nMissingTranslation": "no_translation",
+              "i18nLocale": "de",
+              "i18nMissingTranslation": "warning",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
-                },
-                {
-                  "replace": "src/index.html",
-                  "with": "src/index-ar.html"
                 }
               ],
               "optimization": true,
@@ -152,9 +142,9 @@
             "proxyConfig": "proxy.conf.js"
           },
           "configurations": {
-            "ar": {
-              "browserTarget": "token-customer-website:build:ar",
-              "servePath": "/ar/"
+            "de": {
+              "browserTarget": "token-customer-website:build:de",
+              "servePath": "/de/"
             },
             "en": {
               "browserTarget": "token-customer-website:build:en",

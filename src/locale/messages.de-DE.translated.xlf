@@ -1,156 +1,158 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="de">
     <body>
       <trans-unit id="ef3f70345faf104f65a15d0f8821363ac313026b" datatype="html">
         <source>Field is required</source>
-        
+        <target state="translated">Feld ist erforderlich</target>
       </trans-unit>
       <trans-unit id="9ee02385a89f0788fd35fd61cce47d1f882de536" datatype="html">
         <source>Field has to be whole number</source>
-        
+        <target state="translated">Feld muss ganze Zahl sein</target>
       </trans-unit>
       <trans-unit id="ab31b71295a1bc9475469eec819bd15a26bdd744" datatype="html">
         <source>404 page not found</source>
-        
+        <target state="translated">404 Seite nicht gefunden</target>
       </trans-unit>
       <trans-unit id="199d95857c74b0945b5c7130051a9ad293fc141b" datatype="html">
         <source>Verifying. Please wait...</source>
-        
+        <target state="translated">Überprüfe. Bitte warten...</target>
       </trans-unit>
       <trans-unit id="51ef91163c4348c73657271b3c18614dea5d26f7" datatype="html">
         <source>Your email is now verified.</source>
-        
+        <target state="translated">Ihre E-Mail wurde nun verifiziert.</target>
       </trans-unit>
       <trans-unit id="734122328b5b89dd77f95fb88c749b84682c63c6" datatype="html">
         <source>Email has been already verified</source>
-        
+        <target state="translated">E-Mail wurde bereits verifiziert</target>
       </trans-unit>
       <trans-unit id="f5fa36a9569c07faba3ec105c5f5387ba52f5f4c" datatype="html">
         <source>Verification code does not exist</source>
-        
+        <target state="translated">Bestätigungscode existiert nicht</target>
       </trans-unit>
       <trans-unit id="7865f43c526db9c5707cc3a9c14441bef16ed695" datatype="html">
         <source>Verification code mismatch</source>
-        
+        <target state="translated">Verifizierungscode stimmt nicht überein</target>
       </trans-unit>
       <trans-unit id="37fb6f8467e1847ae2563e2603f1e3280e072b6f" datatype="html">
         <source>Verification code has expired</source>
-        
+        <target state="translated">Bestätigungscode ist abgelaufen</target>
       </trans-unit>
       <trans-unit id="b0c63e3c398d5d20ae7b05e1ba6dbea59c54cdb9" datatype="html">
         <source>Unknown error</source>
-        
+        <target state="translated">Unbekannter Fehler</target>
       </trans-unit>
       <trans-unit id="58610493dd8cd0e06038f58bb1df23a9f2158065" datatype="html">
         <source>Invalid link, please contact support.</source>
-        
+        <target state="translated">Ungültiger Link, bitte kontaktieren Sie den Support.</target>
       </trans-unit>
       <trans-unit id="7d4997f1d742d5baaca8e3f2f9288eacc9d3239a" datatype="html">
         <source>The provided reset password identifier does not exist.</source>
-        
+        <target state="translated">Die angegebene Kennung zum Zurücksetzen des Passworts existiert nicht.</target>
       </trans-unit>
       <trans-unit id="62b5221dade41c734702c35a11524ad0610a74e7" datatype="html">
         <source>The provided reset password identifier has expired and it is not valid anymore.</source>
-        
+        <target state="translated">Die angegebene Kennung zum Zurücksetzen des Passworts ist abgelaufen und ist nicht mehr gültig.</target>
       </trans-unit>
       <trans-unit id="9f269dcf8c2774550b2fb4e207985e27678b29b3" datatype="html">
         <source>Unknown error, please contact support.</source>
-        
+        <target state="translated">Unbekannter Fehler, bitte kontaktieren Sie den Support.</target>
       </trans-unit>
       <trans-unit id="ddab8f43a9dba76959b3fd87f99e01435b023c73" datatype="html">
         <source>Your password has been successfully reset.</source>
-        
+        <target state="translated">Ihr Passwort wurde erfolgreich zurückgesetzt.</target>
       </trans-unit>
       <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
-        
+        <target state="translated">Passwort</target>
       </trans-unit>
       <trans-unit id="e70e209561583f360b1e9cefd2cbb1fe434b6229" datatype="html">
         <source>New password</source>
-        
+        <target state="translated">Neues Passwort</target>
       </trans-unit>
       <trans-unit id="1eede69e18c5ac9c0b0295b72cabb7e64e029e74" datatype="html">
         <source>Hide</source>
-        
+        <target state="translated">Verstecken</target>
       </trans-unit>
       <trans-unit id="2aba1e87039819aca3b70faa9aa848c12bf139ca" datatype="html">
         <source>Show</source>
-        
+        <target state="translated">Zeigen</target>
       </trans-unit>
       <trans-unit id="1fbedc794e374567ff1a8277ec54fad1c3d29201" datatype="html">
         <source>Invalid password format</source>
-        
+        <target state="translated">Ungültiges Passwort-Format</target>
       </trans-unit>
       <trans-unit id="447c25224bb42db33fcfb0d43e102011aaa57196" datatype="html">
         <source>Length should be between <x id="INTERPOLATION" equiv-text="{{ctx.min}}"/> and <x id="INTERPOLATION_1" equiv-text="{{ctx.max}}"/> characters</source>
-        
+        <target state="translated">Die Länge sollte zwischen <x id="INTERPOLATION" equiv-text="{{ctx.min}}"/> und <x id="INTERPOLATION_1" equiv-text="{{ctx.max}}"/> Zeichen betragen</target>
       </trans-unit>
       <trans-unit id="181566918bbf327ebf74641865de6f9166d82e6e" datatype="html">
         <source>Re-type Password</source>
-        
+        <target state="translated">Passwort wiederholen</target>
       </trans-unit>
       <trans-unit id="ede41f01c781b168a783cfcefc6fb67d48780d9b" datatype="html">
         <source>Confirm new password</source>
-        
+        <target state="translated">Neues Passwort bestätigen</target>
       </trans-unit>
       <trans-unit id="3e7702a7126becdb2bd39426a0e2d202287f2ede" datatype="html">
         <source>The passwords should be equal</source>
-        
+        <target state="translated">Die Passwörter sollten gleich sein</target>
       </trans-unit>
       <trans-unit id="ceedaaf868f3f30abd5ed41582f6fee4a665f37d" datatype="html">
         <source>Password length should be between <x id="INTERPOLATION" equiv-text="{{rules.MinLength}}"/> and <x id="INTERPOLATION_1" equiv-text="{{rules.MaxLength}}"/> characters</source>
-        
+        <target state="translated">Das Passwort muss zwischen <x id="INTERPOLATION" equiv-text="{{rules.MinLength}}"/> und <x id="INTERPOLATION_1" equiv-text="{{rules.MaxLength}}"/> Zeichen lang sein</target>
       </trans-unit>
       <trans-unit id="6a0a7229652b2e2f04e19d76bfefd7c8432e06be" datatype="html">
         <source>Password should contain <x id="INTERPOLATION" equiv-text="{{rules.MinLowerCase}}"/> lowercase character(s), <x id="INTERPOLATION_1" equiv-text="{{rules.MinUpperCase}}"/>
         uppercase character(s), <x id="INTERPOLATION_2" equiv-text="{{rules.MinNumbers}}"/> digit(s) and <x id="INTERPOLATION_3" equiv-text="{{rules.MinSpecialSymbols}}"/> special symbol(s)
       </source>
-        
+        <target state="translated">Das Passwort sollte <x id="INTERPOLATION" equiv-text="{{rules.MinLowerCase}}"/> Kleinbuchstaben, <x id="INTERPOLATION_1" equiv-text="{{rules.MinUpperCase}}"/>
+        Großbuchstaben, <x id="INTERPOLATION_2" equiv-text="{{rules.MinNumbers}}"/> Ziffern(e) und <x id="INTERPOLATION_3" equiv-text="{{rules.MinSpecialSymbols}}"/> Sonderzeichen(e)
+      enthalten      </target>
       </trans-unit>
       <trans-unit id="4ad6ee5b951afff9a770cd4baa8fbb3f71a0e7e4" datatype="html">
         <source>Allowed special symbols are: <x id="INTERPOLATION" equiv-text="{{rules.AllowedSpecialSymbols}}"/></source>
-        
+        <target state="translated">Erlaubte Sonderzeichen sind: <x id="INTERPOLATION" equiv-text="{{rules.AllowedSpecialSymbols}}"/></target>
       </trans-unit>
       <trans-unit id="99328065f3e71959b6d57b42aa1049a0fc1aecac" datatype="html">
         <source>Whitespaces are allowed</source>
-        
+        <target state="translated">Leerräume sind erlaubt</target>
       </trans-unit>
       <trans-unit id="1928e2842e7a839e1042c1475e437214ce5a9404" datatype="html">
         <source>Whitespaces are not allowed</source>
-        
+        <target state="translated">Leerräume sind nicht erlaubt</target>
       </trans-unit>
       <trans-unit id="e0fb254115a11840913286cdea33b4443f99b1b2" datatype="html">
         <source>Customer doesn&apos;t have valid identifier for resetting password.</source>
-        
+        <target state="translated">Der Kunde hat keine gültige Kennung zum Zurücksetzen des Passworts.</target>
       </trans-unit>
       <trans-unit id="6438bf41599e5010e355779a94e3250fc92d3f64" datatype="html">
         <source>Reached maximum amount of calls to reset password.</source>
-        
+        <target state="translated">Maximale Anzahl an Anrufen zum Zurücksetzen des Passworts erreicht.</target>
       </trans-unit>
       <trans-unit id="f573d5cc87f78d1ebe95ff67b7058990c4a4447b" datatype="html">
         <source>Customer with such email does not exist.</source>
-        
+        <target state="translated">Kunde mit einer solchen E-Mail existiert nicht.</target>
       </trans-unit>
       <trans-unit id="e83aa7f293f77f09a74f402ab347d28aaf4e3ad8" datatype="html">
         <source>The provided reset password identifier does not match the customer&apos;s one.</source>
-        
+        <target state="translated">Die angegebene Kennung zum Zurücksetzen des Passworts stimmt nicht mit der des Kunden überein.</target>
       </trans-unit>
       <trans-unit id="64cd22cb051b7da6768c45e22bd2130943af7fa4" datatype="html">
         <source>Customer does not exist.</source>
-        
+        <target state="translated">Kunde existiert nicht.</target>
       </trans-unit>
       <trans-unit id="a45a5fb3cbeb52f1f6216004e1e51ba9e1e1ffa4" datatype="html">
         <source>Invalid password format.</source>
-        
+        <target state="translated">Ungültiges Passwort-Format.</target>
       </trans-unit>
       <trans-unit id="753d6f2e0d2e36a4fa9d6e69b950162b1a4323a3" datatype="html">
         <source>The operation is not allowed because the account is blocked.</source>
-        
+        <target state="translated">Der Vorgang ist nicht zulässig, da das Konto gesperrt ist.</target>
       </trans-unit>
       <trans-unit id="6676f052ab9d1ed83317074f054f2ec6e896f0cc" datatype="html">
         <source>Reset password</source>
-        
+        <target state="translated">Passwort zurücksetzen</target>
       </trans-unit>
     </body>
   </file>
