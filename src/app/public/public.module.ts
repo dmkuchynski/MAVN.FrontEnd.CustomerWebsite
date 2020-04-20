@@ -8,17 +8,13 @@ import {SharedModule} from '../shared/shared.module';
 import {EmailConfirmationPageComponent} from './email-confirmation/email-confirmation.component';
 import {NotFoundComponent} from './not-found/not-found.component';
 import {ResetPasswordPageComponent} from './reset-password/reset-password.component';
-import {LeadConfirmationPageComponent} from './lead-confirmation/lead-confirmation.component';
-import {ReferHotelConfirmationPageComponent} from './refer-hotel-confirmation/refer-hotel-confirmation.component';
 
 @NgModule({
   declarations: [
     // Components
     EmailConfirmationPageComponent,
     NotFoundComponent,
-    ResetPasswordPageComponent,
-    LeadConfirmationPageComponent,
-    ReferHotelConfirmationPageComponent
+    ResetPasswordPageComponent
   ],
   imports: [
     // modules
