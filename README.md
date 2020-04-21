@@ -11,6 +11,17 @@ Navigate to `http://localhost:4200/en`. The app will automatically reload if you
 Pay attention to file `nginx/env-config.json` which contains settings required for application including api url `CustomerApiUrl`.
 This file is downloading at the moment of application start.
 
+## i18n
+
+To run locally the german version execute command `npm run serve-de` and then navigate to `http://localhost:4201/de`.
+
+To append new translations make sure you put attribute i18n as described here (https://angular.io/guide/i18n).  
+Then update file with message(s) which should be translated:  
+`npm run i18n`  
+Now you can compare the files `messages.generated.xlf` and `messages.de-DE.generated.xlf` and copy new untranslated strings.  
+Then translate new strings in translation tools or manually by addings tags `<target>`.  
+So in result should appear: e.g. `<target state="translated">Kunden</target>`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
