@@ -4,6 +4,11 @@
   "newProjectRoot": "projects",
   "projects": {
     "token-customer-website": {
+      "i18n": {
+        "locales": {
+          "de": "src/locale/messages.de-DE.translated.xlf"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,6 +22,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/token-customer-website",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -38,22 +44,26 @@
           "configurations": {
             "de": {
               "aot": true,
-              "outputPath": "dist/token-customer-website/de",
-              "baseHref": "/de/",
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
+            "localize": [
+              "de"
+            ],
+              "outputPath": "dist/token-customer-website",
               "deployUrl": "/de/",
-              "i18nFile": "src/locale/messages.de-DE.translated.xlf",
-              "i18nFormat": "xlf",
-              "i18nLocale": "de",
               "i18nMissingTranslation": "warning"
             },
             "de-prod": {
               "aot": true,
-              "outputPath": "dist/token-customer-website/de",
-              "baseHref": "/de/",
+            "localize": [
+              "de"
+            ],
+              "outputPath": "dist/token-customer-website",
               "deployUrl": "/de/",
-              "i18nFile": "src/locale/messages.de-DE.translated.xlf",
-              "i18nFormat": "xlf",
-              "i18nLocale": "de",
               "i18nMissingTranslation": "warning",
               "fileReplacements": [
                 {
@@ -74,10 +84,20 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             },
             "en": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "outputPath": "dist/token-customer-website/en",
               "baseHref": "/en/",
               "deployUrl": "/en/"
@@ -106,6 +126,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             },
@@ -130,6 +154,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
